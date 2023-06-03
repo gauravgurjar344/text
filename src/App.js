@@ -46,8 +46,8 @@ function App() {
      
       <div className="container my-3">
         <Routes>   
-          <Route path="/about" element={<About />} />
-          <Route path="/" element={<TextUtils heading='Enter your Feedback' mode={mode}/>} />
+          <Route path="/about" element={<About about='About Us'/>} />
+          <Route path="/" element={<TextUtils heading='Enter the text to analyze below' mode={mode}/>} />
         </Routes>
       </div>
    </Router>
